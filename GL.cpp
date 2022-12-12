@@ -215,7 +215,7 @@ int main(){
 		    }
 	    	Row = LoadStatus(States);
 	    	if (Row == -1){
-	    		cout<<"Incorrect filename.";
+	    		cout<<"Incorrect filename."<<endl;
 	    		return 0;
 	    	}
 
